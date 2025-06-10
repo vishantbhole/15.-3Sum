@@ -25,4 +25,8 @@ class Solution(object):
                         l += 1
         return res
 
-
+# Example usage
+if __name__ == "__main__":
+    sol = Solution()
+    nums = [-2,0,1,1,2]
+    print("Minimum is:", sol.threeSum(nums))
